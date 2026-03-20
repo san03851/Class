@@ -3,6 +3,8 @@
 class Monster
 {
 public:
+	Monster();
+	~Monster();
 	struct MonsterStats
 	{
 		int Hp = 0;

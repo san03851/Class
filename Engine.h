@@ -5,6 +5,8 @@
 class Engine
 {
 public:
+	Engine();
+	~Engine();
 	void PrintWorld(struct MonsterComp* Monst, struct PlayerComp* Player, int* World);
 
 	void UpdatePlayer(struct Playerstat* PlayerStats, struct Monsterstats* MonsterStats, struct PlayerPosition* PlayerPos);

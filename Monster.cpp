@@ -1,5 +1,14 @@
 #include "Monster.h"
 
+Monster::Monster()
+{
+
+}
+Monster::~Monster()
+{
+
+}
+
 void MonsterAttack(int** PlayerPos, int** MonsterPos)
 {
 

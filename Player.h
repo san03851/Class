@@ -2,6 +2,8 @@
 class Player
 {
 public:
+	Player();
+	~Player();
 	struct PlayerStat
 	{
 		int Hp = 0;

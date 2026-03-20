@@ -2,6 +2,8 @@
 class World
 {
 public:
+	World();
+	~World();
 	struct MapObject
 	{
 		int Empty = 1000;

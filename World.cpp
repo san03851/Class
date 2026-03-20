@@ -1,5 +1,13 @@
 #include "World.h"
 
+World::World()
+{
+
+}
+World::~World()
+{
+
+}
 
 void CreateWorld(int Row, int Col, int* World)
 {
