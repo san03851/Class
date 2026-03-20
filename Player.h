@@ -29,9 +29,18 @@ public:
 
 	struct PlayerInventory
 	{
-		int Size = 0;
+		int InventorySize = 0;
 		int GoldInv = 0;
-		int* Items = new int[Size];
+		int* Items = new int[InventorySize];
+	};
+
+	struct PlayerComp
+	{
+		struct PlayerId;
+		struct PlayerStat;
+		struct PlayerPosition;
+		struct PlayerSkill;
+		struct PlayerInventory;
 	};
 
 	void PlayerControl(int** PlayerPos, int** WorldMap);
