@@ -5,7 +5,7 @@ void MonsterAttack(int** PlayerPos, int** MonsterPos)
 
 }
 
-void MoveMonster(int** Destination, int** MonsterPos, struct MonsterID[])
+void MoveMonster(int** Destination, int** MonsterPos, struct MonsterID* Mid)
 {
 
 }
