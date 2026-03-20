@@ -2,11 +2,13 @@
 #include "Headerfile.h"
 
 
-class Engine
+class UEngine
 {
 public:
-	Engine();
-	~Engine();
+	UEngine();
+	~UEngine();
+
+	UWorld* World;
 	void PrintWorld(struct MonsterComp* Monst, struct PlayerComp* Player, int* World);
 
 	void UpdatePlayer(struct Playerstat* PlayerStats, struct Monsterstats* MonsterStats, struct PlayerPosition* PlayerPos);

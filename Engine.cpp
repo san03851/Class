@@ -1,6 +1,13 @@
 #include "Engine.h"
 
+UEngine::UEngine()
+{
 
+}
+UEngine::~UEngine()
+{
+
+}
 
 void PrintWorld(struct MonsterComp* Monst, struct PlayerComp* Player, int* World)
 {

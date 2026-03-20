@@ -1,10 +1,10 @@
 #include "World.h"
 
-World::World()
+UWorld::UWorld()
 {
 
 }
-World::~World()
+UWorld::~UWorld()
 {
 
 }

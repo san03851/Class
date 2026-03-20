@@ -1,9 +1,9 @@
 #pragma once
-class World
+class UWorld
 {
 public:
-	World();
-	~World();
+	UWorld();
+	~UWorld();
 	struct MapObject
 	{
 		int Empty = 1000;
